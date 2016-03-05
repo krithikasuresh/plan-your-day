@@ -1,0 +1,22 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+
+body {
+    font-family: raleway;
+    border: solid;
+    display: inline-block;
+    padding: 5%;
+    background-color: #F1F1F2;
+    text-align: center;
+    color: #1995AD;
+    border-color: #BCBABE;
+}
+
+h2 {
+    background-color:#A1D6E2;
+    display: inline-block;
+    padding: 5%;
+}
+
+#dolist {
+    text-align: left;
+}
