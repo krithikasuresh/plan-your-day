@@ -29,6 +29,7 @@ function deleteThis(a) {
 
 
 // request permission on page load
+/*
 document.addEventListener('DOMContentLoaded', function () {
     if (Notification.permission !== "granted")
         Notification.requestPermission();
@@ -44,14 +45,15 @@ function notifyMe() {
         Notification.requestPermission();
     else {
         var notification = new Notification('Notification title', {
-            icon: 'http://cdn.sstatic.net/stackexchange/img/logos/so/so-icon.png',
+            icon: '',
             body: "Fill out your to do plan for the day!",
         });
 
         notification.onclick = function () {
-            window.open("http://stackoverflow.com/a/13328397/1269037");      
+            window.open("");      
         };
 
     }
 
 }
+*/
