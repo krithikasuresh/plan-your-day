@@ -8,7 +8,7 @@ $('#notif').html(notif);
 
 $('#add').click(function() {
     input = $('#task').val();
-    $('#dolist').append(`<li>${input}<button onclick="deleteThis(this)" id="del${i}">X</button></li>`);
+    $('#dolist').append(`<li>${input}<button onclick="deleteThis(this)" class="del ${i}">X</button></li>`);
     $('#task').val('');
     i++;
 });

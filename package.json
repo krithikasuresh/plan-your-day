@@ -1,0 +1,25 @@
+{
+  "name": "plan-your-day",
+  "version": "1.0.0",
+  "description": "To do electron application",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/krithikasuresh/plan-your-day"
+  },
+  "keywords": [
+    "Electron"
+  ],
+  "author": "Krithika Suresh",
+  "license": "",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "",
+  "devDependencies": {
+    "electron-prebuilt": "^0.36.0"
+  }
+}

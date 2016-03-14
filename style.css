@@ -2,7 +2,7 @@
 
 body {
     font-family: raleway;
-    border: solid;
+    //border: solid;
     display: inline-block;
     padding: 5%;
     background-color: #F1F1F2;
@@ -19,4 +19,16 @@ h2 {
 
 #dolist {
     text-align: left;
+    background-color: #A1D6E2;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.del {
+    background-color: #BCBABE;
+    color: #F1F1F2;
+    border: none;
+    float: right;
 }
